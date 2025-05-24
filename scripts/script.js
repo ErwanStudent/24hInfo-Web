@@ -48,7 +48,30 @@ function updateDots() {
 
 function expand() {
   let overlays = document.getElementsByClassName("overlay");
-  console.log(overlays);
-  overlays[currentPage].querySelector(".bandeau").style.width = "90vw";
-  overlays[currentPage].querySelector(".bandeau").style.height = "90vh";
+    if (overlays[currentPage].querySelector(".bandeau").style.width === "90vw") {
+    console.log("expand");
+    overlays[currentPage].querySelector(".bandeau").style.width = "35vw";
+    overlays[currentPage].querySelector(".bandeau").style.height = "15vh";
+    overlays[currentPage].querySelector(".bandeau").style.top = "80vh";
+    overlays[currentPage].querySelector(".bandeau").style.left = "1%";
+    overlays[currentPage].querySelector(".bandeau>.text>p").style.maskImage = "linear-gradient(to top, transparent 10%, black 125%)";
+    overlays[currentPage].querySelector(".bandeau>.text>p").style["-webkit-mask-image"] = "linear-gradient(to top, transparent 10%, black 125%)";
+
+  } else {
+    overlays[currentPage].querySelector(".bandeau").style.width = "90vw";
+    overlays[currentPage].querySelector(".bandeau").style.height = "85vh";
+    overlays[currentPage].querySelector(".bandeau").style.top = "10vh";
+    overlays[currentPage].querySelector(".bandeau").style.left = "15vw";
+    overlays[currentPage].querySelector(".bandeau>.text>p").style.maskImage = "linear-gradient(to top, transparent 0%, black 0%)";
+    overlays[currentPage].querySelector(".bandeau>.text>p").style["-webkit-mask-image"] = "linear-gradient(to top, transparent 0%, black 0%)";
+  }
+
+  
+//   console.log(overlays);
+//   overlays[currentPage].querySelector(".bandeau").style.width = "90vw";
+//   overlays[currentPage].querySelector(".bandeau").style.height = "85vh";
+//   overlays[currentPage].querySelector(".bandeau").style.top = "10vh";
+//   overlays[currentPage].querySelector(".bandeau").style.left = "15vw";
+
+  overlays[currentPage].querySelector(".bandeau").style.transition = "all 0.5s ease-in-out";
 }
