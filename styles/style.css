@@ -146,9 +146,6 @@ header>img {
   flex-basis: 100%;
   flex-grow: 0;
   display: flex;
-
-
-
 }
 
 .scrollContainer {
@@ -159,17 +156,15 @@ header>img {
 }
 
 #gare {
-  background-image: url('../img/NouvelleVague.jpg');
+  background-image: url('../img/locations/NouvelleVague.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
-
 }
 
 #NotForSale {
 
-  background-image: url('../img/NotForSale.jpg');
+  background-image: url('../img/locations/NotForSale.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -178,7 +173,7 @@ header>img {
 
 #Mother {
 
-  background-image: url('../img/Mother.jpg');
+  background-image: url('../img/locations/Mother.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -186,7 +181,7 @@ header>img {
 }
 
 #Flux {
-  background-image: url('../img/Flux.jpg');
+  background-image: url('../img/locations/Flux.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -194,7 +189,7 @@ header>img {
 }
 
 #CoralGhost {
-  background-image: url('../img/CoralGhosts.jpg');
+  background-image: url('../img/locations/CoralGhosts.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
