@@ -1,0 +1,55 @@
+[
+    {
+        "title": "Nouvelle vague",
+        "image_path": "./img/NouvelleVague.jpg",
+        "location": "Gare Saint-Paul",
+        "time": "Du jeudi 5 au dimanche 8 décembre de 19h à 23h",
+        "description": "Trois artistes proposent, chacun à leur tour, leur langage visuel, leur sensibilité, leur savoir technique et… leur imaginaire. Tous ont envie de partager avec nous ces projections aussi courtes que denses. Elles s’enchaînent sous nos yeux et nous interpellent. Elles sont décalées, audacieuses, mouvementées ou délicates…\nDe la même façon qu'il faut être rapides et concentrés pour attraper un train certains jours, il faut être curieux et vifs pour capter ces trois créations dans les moindres détails !",
+        "fields": [
+            {
+                "title": "Zouhour Saoud : Sur’impressions",
+                "value": "Expérience immersive : un travelling avant joue avec nos perceptions et notre regard qui se perd dans les transformations et les déformations visuelles. Les frontières entre le réel et le virtuel s’estompent… Dans cette projection, la créatrice évoque le voyage émotionnel : peu importe la destination ! La création sonore est signée Géraldine Kwik."
+            },
+            {
+                "title": "Jésus Baptista : Amalia",
+                "description": "Voici une œuvre qui veut être un lien. Son créateur Jésus Baptista, issu de l'immigration, a toujours ressenti le chaos provoqué par le déracinement, mais aussi les nouvelles possibilités qui se dessinent. Ici, il est question d’identité, de croisements, d’horizons différents, de souvenirs… La musique est signée Amadeo Savio."
+            },
+            {
+                "title": "Dirk Rauscher : One second lovestory",
+                "description": "Rendez-vous avec un poème visuel dans le style du roman graphique. Il raconte comment un simple regard peut bouleverser le cours du temps. Prenant place sur un quai de gare le matin, des gens se pressent, passent et partent… Chacun suit son chemin et respecte l’horaire pour atteindre sa destination. La routine quotidienne de deux d'entre eux est soudainement interrompue lorsque leurs regards se rencontrent."
+            }
+        ]
+    },
+    {
+        "title": "Not for sale",
+        "image_path": "./img/NotForSale.jpg",
+        "location": "Temps du Change",
+        "time": "Du jeudi 5 au dimanche 8 décembre de 19h à 23h",
+        "description": "Des enseignes lumineuses vendant autre chose que des produits ? Mais oui, c’est possible ! Elles semblent avoir quitté les rues et les magasins pour se métamorphoser sous nos yeux. À présent, elles véhiculent des messages qui nous interpellent. Sur la façade, elles forment un tableau géant, coloré et rythmé. Étonnantes enseignes : elles brillent, s’agitent, remplissent l’espace et se heurtent entre elles avant d’apparaître plus harmonieusement dans le paysage. Not for sale est une invitation collective et joyeuse à regarder l’espace public différemment, à consommer autrement.",
+        "fields": []
+    },
+    {
+        "title": "Mother",
+        "image_path": "./img/Mother.jpg",
+        "location": "Cathédrale Saint-Jean",
+        "time": "Du jeudi 5 au dimanche 8 décembre de 19h à 22h",
+        "description": "Métamorphosée par la couleur et une esthétique abstraite, la façade de la cathédrale nous surprend, une fois encore. Puissance, variété des ornements, magnétisme et beauté sont révélés dans cette œuvre. Mother joue sur les contrastes, les ruptures de rythme, les équilibres et les forces en jeu. La façade de pierre devient montagne et rochers. Elle est le théâtre d’éclairs flamboyants ou de mouvements lents, elle reçoit le vent et l’eau. Elle semble être un paysage dont les éléments bougent et vibrent. La musique qui mêle sons réels et fictifs nous immerge… pour un spectacle total.",
+        "fields": []
+    },
+    {
+        "title": "Flux",
+        "image_path": "./img/Flux.jpg",
+        "location": "Place des Célestins",
+        "time": "Du jeudi 5 au dimanche 8 décembre de 19h à 22h",
+        "description": "On aborde cette installation autant par les oreilles que par les yeux ! La musique, spécifiquement composée pour l’œuvre, est le socle de cette architecture de lumière. Visuellement, nous sommes happés par une centaine de barres de leds, graphiques. Reliées, elles tournent sur elles-mêmes et sont commandées en temps réel. Transformant leur environnement, elles dessinent une spirale, oscillent calmement ou ondulent frénétiquement. L’ensemble joue avec nos repères et nos sensations. Le traitement sobre des couleurs, le fascinant mouvement cinétique, la place de la musique signent l’originalité de cette œuvre.",
+        "fields": []
+    },
+    {
+        "title": "Coral ghosts",
+        "image_path": "./img/CoralGhosts.jpg",
+        "location": "Place de la République",
+        "time": "Du jeudi 5 au dimanche 8 décembre de 19h à 23h",
+        "description": "Les océans sont des écosystèmes fragiles, aujourd’hui menacés sous l’effet de l’activité humaine et du changement climatique. Le récif corallien est particulièrement touché, comme l’évoque Coral ghosts. Cette installation-paysage évoque un monde sous-marin éthéré, où se mêlent fragilité et perte. L’œuvre est conçue à partir de 300 kg de filets de pêche récupérés, appelés \"filets fantômes\" et mis en scène dans les bassins de la place.\nLa nuit, des projections vidéo à 360 degrés illuminent la structure, reproduisant la vitalité des écosystèmes marins. Par-delà sa beauté évidente, Coral ghosts interroge sur la fragilité de ces éléments naturels et leur disparition silencieuse.",
+        "fields": []
+    }
+]

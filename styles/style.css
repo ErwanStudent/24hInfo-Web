@@ -1,0 +1,206 @@
+body {
+  padding: 0;
+  margin: 0;
+  /* display: flex; */
+}
+
+header {
+  position: fixed;
+  height: 10vh;
+  width: 10vw;
+  z-index: 1;
+}
+
+header>img {
+  width: 10vw;
+  height: auto;
+  margin: 20%;
+  padding: 0;
+}
+
+.cercles {
+  position: fixed;
+  right: 1%;
+  top: 45%;
+  z-index: 2;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 30%;
+  background-color: rgba(200, 200, 200, 0.5);
+  border-radius: 50%;
+  display: block;
+  transition: height 1s, border-radius 1s;
+}
+
+#current {
+  height: 100px;
+  width: 15px;
+  margin: 30%;
+  background-color: rgb(200, 200, 200);
+  border-radius: 20px;
+  display: block;
+  transition: height 1s, border-radius 1s;
+}
+
+.bandeau {
+  transform-origin: bottom left;
+  background: rgba(255, 255, 255, 0.155);
+  border: solid rgba(255, 255, 255, 0.20) 0.01px;
+  /* border-radius: 16px; */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.01);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  color: white;
+  height: 15vh;
+  width: 35vw;
+  flex-basis: 50%;
+  flex-grow: 0;
+  /*backdrop-filter: blur(20px);*/
+  padding: 0%;
+  padding-left: 1.5%;
+  /* padding-right: 15%; */
+  border-radius: 25px;
+  text-align: left;
+  float: left;
+  position: relative;
+  /* bottom: 5vh; */
+  top: 80vh;
+  left: 1%;
+  display: flex;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+
+}
+
+.bandeau>.text {
+  flex-basis: 92%;
+  flex-grow: 1;
+
+}
+
+.bandeau>.text>* {
+  margin: 0;
+  padding: 0%;
+}
+
+.bandeau>.text :first-child {
+  margin-top: 1%;
+}
+
+.bandeau>.text>p {
+  color: white;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0;
+  mask-image: linear-gradient(to top, transparent 10%, black 125%);
+  -webkit-mask-image: linear-gradient(to top, transparent 10%, black 125%);
+}
+
+.bandeau>.text>h1 {
+  padding-top: 1%;
+  font-size: 2.4em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sous-titre {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.sous-titre>h2 {
+  font-size: 200px;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 1.25%;
+  padding-bottom: 2%;
+  margin: 0;
+}
+
+.sous-titre>img {
+  width: 1em;
+  height: 1em;
+  margin-right: 1%;
+  margin-top: 0.5%;
+  margin-left: 1%;
+}
+
+.bandeau h2 {
+  font-size: 0.75em;
+}
+
+.bandeau>.image {
+  padding-top: 2%;
+  flex-basis: 5%;
+  flex-grow: 0;
+}
+
+.overlay {
+  height: 100vh;
+  width: 100vw;
+  justify-content: left;
+  padding-left: 0;
+  flex-basis: 100%;
+  flex-grow: 0;
+  display: flex;
+
+
+
+}
+
+.scrollContainer {
+  width: 500%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#gare {
+  background-image: url('../img/NouvelleVague.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+
+}
+
+#NotForSale {
+
+  background-image: url('../img/NotForSale.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+#Mother {
+
+  background-image: url('../img/Mother.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+#Flux {
+  background-image: url('../img/Flux.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+#CoralGhost {
+  background-image: url('../img/CoralGhosts.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.pin-spacer {
+  width: unset !important;
+}
